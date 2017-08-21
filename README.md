@@ -2,7 +2,7 @@
 
 This simple example shows how to set up multiple websites running behind a dockerized Nginx reverse proxy and served via HTTPS using free [Let's Encrypt](https://letsencrypt.org) certificates. New sites can be added on the fly by just modifying `docker-compose.yml` and then running `docker-compose up` as the main Nginx config is automatically updated and certificates (if needed) are automatically acquired.
 
-The code from this was copied from<https://github.com/gilyes/docker-nginx-letsencrypt-sample>and updated for my own usage.
+The code from this was copied from <https://github.com/gilyes/docker-nginx-letsencrypt-sample> and updated for my own usage.
 
 ## Running the example
 ### Prerequisites
